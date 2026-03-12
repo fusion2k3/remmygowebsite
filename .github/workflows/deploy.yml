@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Trigger cPanel Git Deploy
         run: |
-          curl -s "https://${{ secrets.CPANEL_HOST }}:2083" \
+          curl -s -X POST \
             --user "${{ secrets.CPANEL_USERNAME }}:${{ secrets.CPANEL_API_TOKEN }}" \
-            --data-urlencode "repository=/home/${{ secrets.CPANEL_USERNAME }}/repos/your-theme" \
+            --data-urlencode "repository=/home/seowavec/repos/remmygowebsite" \
             "https://${{ secrets.CPANEL_HOST }}:2083/execute/VersionControlDeployment/create"
