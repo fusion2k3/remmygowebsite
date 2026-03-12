@@ -1,0 +1,17 @@
+name: Deploy to cPanel
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger cPanel Git Deploy
+        run: |
+          curl -s "https://${{ secrets.CPANEL_HOST }}:2083" \
+            --user "${{ secrets.CPANEL_USERNAME }}:${{ secrets.CPANEL_API_TOKEN }}" \
+            --data-urlencode "repository=/home/${{ secrets.CPANEL_USERNAME }}/repos/your-theme" \
+            "https://${{ secrets.CPANEL_HOST }}:2083/execute/VersionControlDeployment/create"

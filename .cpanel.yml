@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=public_html/wp-content/themes
+    - /bin/cp -R . $DEPLOYPATH
