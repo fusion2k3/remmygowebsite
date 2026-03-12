@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1270" viewBox="0 0 1920 1270" fill="none">
+<path d="M350 0H2270V868.371C2270 951.214 2202.84 1018.37 2120 1018.37H500C417.157 1018.37 350 951.214 350 868.371V0Z" fill="url(#paint0_linear_190_39)" style="&#10;    transform: translate(-350px, 0);&#10;"/>
+<g filter="url(#filter0_f_190_39)" style="&#10;    transform: translate(-350px, 0);&#10;">
+<path d="M1267.15 668.207C881.459 676.131 350 920 350 920L2270 919.761C2270 919.761 1684.03 659.643 1267.15 668.207Z" fill="#2F63FA" fill-opacity="0.5"/>
+</g>
+<mask id="mask0_190_39" style="mask-type:alpha;transform: translate(-350px, 0);" maskUnits="userSpaceOnUse" x="350" y="0" width="1920" height="1019">
+<path d="M350 0H2270V868.371C2270 951.214 2202.84 1018.37 2120 1018.37H500C417.157 1018.37 350 951.214 350 868.371V0Z" fill="url(#paint1_linear_190_39)"/>
+</mask>
+<g mask="url(#mask0_190_39)" style="&#10;    transform: translate(-350px, 0);&#10;">
+<g opacity="0.8">
+<mask id="mask1_190_39" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="350" y="-30" width="1920" height="1440">
+<rect x="350.5" y="-29.5" width="1919" height="1439" fill="#F2F2F2" stroke="white"/>
+</mask>
+<g mask="url(#mask1_190_39)">
+<line y1="-0.5" x2="2309.24" y2="-0.5" transform="matrix(0.706654 0.707559 -0.694462 0.719529 -142.961 569.176)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2470.96" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.713287 -0.700872 1514.24 -905.434)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2309.24" y2="-0.5" transform="matrix(0.706654 0.707559 -0.694462 0.719529 -37.6797 467.645)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2470.96" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.713287 -0.700872 1621.7 -791.988)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2309.24" y2="-0.5" transform="matrix(0.706654 0.707559 -0.694462 0.719529 67.6172 366.109)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2470.96" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.713287 -0.700872 1729.16 -678.547)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2309.24" y2="-0.5" transform="matrix(0.706654 0.707559 -0.694462 0.719529 172.898 264.582)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2470.96" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.713287 -0.700872 1836.61 -565.098)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2345.37" y2="-0.5" transform="matrix(0.706654 0.707559 -0.719828 0.694152 255.023 139.863)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2509.61" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.687675 -0.726018 1969.94 -475.316)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2394.18" y2="-0.5" transform="matrix(0.705924 0.708288 -0.719112 0.694894 326.391 2.55078)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2518.29" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.687675 -0.726019 2083.23 -367.211)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2349.19" y2="-0.5" transform="matrix(0.705924 0.708288 -0.69372 0.720245 462.227 -71.8984)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2470.96" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.713287 -0.700872 2158.96 -224.777)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2309.24" y2="-0.5" transform="matrix(0.706654 0.707559 -0.694462 0.719529 594.023 -141.527)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2470.96" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.713287 -0.700872 2266.41 -111.332)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2309.24" y2="-0.5" transform="matrix(0.706654 0.707559 -0.694462 0.719529 699.328 -243.059)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2470.96" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.713287 -0.700872 2373.87 2.125)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2309.24" y2="-0.5" transform="matrix(0.706654 0.707559 -0.694462 0.719529 804.602 -344.586)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2470.96" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.713287 -0.700872 2481.31 115.559)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2309.24" y2="-0.5" transform="matrix(0.706654 0.707559 -0.694462 0.719529 909.883 -446.121)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2470.96" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.713287 -0.700872 2588.77 229.004)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2309.24" y2="-0.5" transform="matrix(0.706654 0.707559 -0.694462 0.719529 1015.18 -547.652)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2470.96" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.713287 -0.700872 2696.22 342.445)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2309.24" y2="-0.5" transform="matrix(0.706654 0.707559 -0.694462 0.719529 1120.45 -649.176)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2470.96" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.713287 -0.700872 2803.66 455.883)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2309.24" y2="-0.5" transform="matrix(0.706654 0.707559 -0.694462 0.719529 1244.23 -768.211)" stroke="#E0E0E0"/>
+<line y1="-0.5" x2="2470.96" y2="-0.5" transform="matrix(-0.738126 0.674663 -0.713287 -0.700872 2929.65 589.242)" stroke="#E0E0E0"/>
+</g>
+</g>
+</g>
+<defs style="&#10;    transform: translate(-350px, 0);&#10;">
+<filter id="filter0_f_190_39" x="0" y="318" width="2620" height="952" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="175" result="effect1_foregroundBlur_190_39"/>
+</filter>
+<linearGradient id="paint0_linear_190_39" x1="1310" y1="0" x2="1310" y2="1018.37" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F4F6FD"/>
+<stop offset="1" stop-color="#F1F4FF"/>
+</linearGradient>
+<linearGradient id="paint1_linear_190_39" x1="1310" y1="0" x2="1310" y2="1018.37" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F4F6FD"/>
+<stop offset="1" stop-color="#F1F4FF"/>
+</linearGradient>
+</defs>
+</svg>
