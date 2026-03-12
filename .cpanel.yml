@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/seowavec/public_html/wp-content/themes/otsketch/
+    - export DEPLOYPATH=/home2/seowavec/public_html/wp-content/themes/otsketch/
     - /bin/cp -R otsketch/. $DEPLOYPATH
