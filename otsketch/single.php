@@ -49,6 +49,11 @@
 
  
 			<div class="large-8 cell text-content sm">
+				<?php if ( has_post_thumbnail() ) : ?>
+					<div class="featured-image">
+						<?php the_post_thumbnail('large', array('style' => 'width:100%;height:auto;margin-bottom:2rem;border-radius:8px;')); ?>
+					</div>
+				<?php endif; ?>
 				<?php the_content(); ?>
 			</div>
 			<div class="large-2 cell"></div>

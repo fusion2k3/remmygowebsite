@@ -189,5 +189,38 @@
 	?>
 
     
+<?php
+$resources = new WP_Query(array(
+    'posts_per_page' => -1,
+    'post_type'      => 'resources',
+    'post_status'    => 'publish',
+));
+?>
+<?php if ( $resources->have_posts() ) : ?>
+<div class="grid-container content" style="padding-top:2rem;padding-bottom:3rem;">
+    <div class="grid-x grid-padding-x blogarea">
+        <?php while ( $resources->have_posts() ) : $resources->the_post(); ?>
+        <div class="large-4 medium-6 small-12 cell">
+            <div class="post">
+                <div class="img">
+                    <a href="<?php the_permalink(); ?>" rel="bookmark">
+                        <?php if ( has_post_thumbnail() ) {
+                            the_post_thumbnail('post');
+                        } else { ?>
+                            <img style="margin:11.5% auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/default.jpg" width="420" height="230" alt="<?php bloginfo('name'); ?>" />
+                        <?php } ?>
+                    </a>
+                </div>
+                <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+                <p><?php the_excerpt(); ?></p>
+                <a href="<?php the_permalink(); ?>" class="button" rel="bookmark">View Resource</a>
+            </div>
+        </div>
+        <?php endwhile; ?>
+    </div>
+</div>
+<?php wp_reset_postdata(); ?>
+<?php endif; ?>
+
 <div class="rec bottom"> <canvas id="gradient-canvas" style="width:100vw;height:15px"></canvas></div>
 <?php get_footer(); ?>
