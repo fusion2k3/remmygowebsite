@@ -50,7 +50,7 @@
  
 					<div class="col">
  
-						<h3>Explore1112</h3>
+						<h3>Explore2</h3>
 						<?php
 							wp_nav_menu(array(
 								'container' => '',

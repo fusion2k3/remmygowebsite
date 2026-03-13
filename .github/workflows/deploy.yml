@@ -20,4 +20,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           local-dir: ./otsketch/
-          server-dir: /remittancego.com/wp-content/themes/otsketch/
+          server-dir: /public_html/wp-content/themes/otsketch/
