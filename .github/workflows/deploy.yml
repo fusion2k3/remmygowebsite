@@ -9,9 +9,14 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger cPanel Git Deploy
-        run: |
-          curl -s -X POST \
-            --user "${{ secrets.CPANEL_USERNAME }}:${{ secrets.CPANEL_API_TOKEN }}" \
-            --data-urlencode "repository=/home2/seowavec/repos/remmygowebsite" \
-            "https://${{ secrets.CPANEL_HOST }}:2083/execute/VersionControlDeployment/create"
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./otsketch/
+          server-dir: /remittancego.com/wp-content/themes/otsketch/
