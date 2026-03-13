@@ -204,6 +204,15 @@ register_taxonomy('lessons', array('tutorials'), array(
 ));
 register_taxonomy_for_object_type('lessons', 'tutorials');
 
+add_filter('post_link', function($permalink, $post, $leavename) {
+    $home = untrailingslashit(home_url());
+    $path = str_replace($home, '', $permalink);
+    if (strpos($path, '/blog/') !== 0) {
+        $permalink = $home . '/blog' . $path;
+    }
+    return $permalink;
+}, 99, 3);
+
 
 
 
