@@ -7,14 +7,10 @@
 				<div class="large-6 medium-6 cell">
 					<ul class="breadcrumbs">
 						<li><a href="<?php echo home_url(); ?>">Home</a></li>
-					
 						<?php $post_type = get_post_type_object(get_post_type($post)); ?>
 						<li><a href="<?php echo get_post_type_archive_link(get_post_type($post)); ?>"><?php echo $post_type->label; ?></a></li>
 						<li><?php the_title();?></li>
 					</ul>
-					<div class="center">
-						<h1><span></span> <?php the_title();?></h1>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -44,14 +40,15 @@
 				<?php endif;?>
 			</div>
 			<?php endif;?>
-			
-						<div class="large-2 cell"></div>
 
- 
+			<div class="large-2 cell"></div>
+
 			<div class="large-8 cell text-content sm">
+				<h1 class="post-title"><?php the_title(); ?></h1>
+				<p class="post-meta">By <?php the_author(); ?> &mdash; <?php echo get_the_date('j F Y'); ?></p>
 				<?php if ( has_post_thumbnail() ) : ?>
 					<div class="featured-image">
-						<?php the_post_thumbnail('large', array('style' => 'width:100%;height:auto;margin-bottom:2rem;border-radius:8px;')); ?>
+						<?php the_post_thumbnail('large', array('style' => 'width:100%;height:auto;border-radius:8px;')); ?>
 					</div>
 				<?php endif; ?>
 				<?php the_content(); ?>
@@ -64,12 +61,12 @@
 		<?php get_template_part('404'); ?>
 	<?php endif; ?>
 	<?php if(have_rows('content_builder')):?>
-		<?php while(have_rows('content_builder')): ?> 
+		<?php while(have_rows('content_builder')): ?>
 			<?php the_row(); include('content/'.get_row_layout().'.php');?>
 		<?php endwhile;?>
 	<?php endif;?>
-	
-	
+
+
 	<section id="image-text-new" class="arright row image-text hasbg" style="background-color:#2f63fa">
 		<div class="grid-container">
 			<div class="grid-x grid-padding-x">

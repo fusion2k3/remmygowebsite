@@ -2648,3 +2648,16 @@ section.linkslist .grid-x:nth-child(2) .button{padding: 8px;  min-width: 201px;c
 }
 .rgo-card h3 { margin: 18px 0 8px; }
 .rgo-card p { font-size: 14px; color: #555; margin-bottom: 10px; line-height: 1.65; }
+
+/* Blog post title + meta */
+.post-title {
+	margin-bottom: 0.4rem;
+}
+.post-meta {
+	font-size: 0.9rem;
+	color: #888;
+	margin-bottom: 1.5rem;
+}
+.featured-image {
+	margin-bottom: 2rem;
+}
