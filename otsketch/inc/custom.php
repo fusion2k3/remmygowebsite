@@ -125,6 +125,29 @@ function create_post_type() {
     )
   );
 
+  register_post_type( 'case-studies',
+    array(
+      'labels' => array(
+        'name'               => __( 'Case Studies' ),
+        'singular_name'      => __( 'Case Study' ),
+        'add_new'            => __( 'Add New' ),
+        'add_new_item'       => __( 'Add New Case Study' ),
+        'edit_item'          => __( 'Edit Case Study' ),
+        'new_item'           => __( 'New Case Study' ),
+        'view_item'          => __( 'View Case Study' ),
+        'search_items'       => __( 'Search Case Studies' ),
+        'not_found'          => __( 'No case studies found' ),
+        'not_found_in_trash' => __( 'No case studies found in Trash' ),
+      ),
+      'supports'     => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt' ),
+      'public'       => true,
+      'has_archive'  => 'case-studies',
+      'show_in_menu' => true,
+      'menu_icon'    => 'dashicons-portfolio',
+      'rewrite'      => array( 'slug' => 'case-studies', 'with_front' => false ),
+    )
+  );
+
    register_post_type( 'tutorials',
     array(
       'labels' => array(
