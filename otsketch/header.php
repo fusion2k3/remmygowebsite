@@ -194,13 +194,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							 the_archive_description( '<div class="archive-description">', '</div>' );*/
 						?>
 						<h1 class="page-title">Learn: Blog</h1>
-						<p><?php if($t = get_field('_login', 'options')) echo ' <a href="'.$t.'" class="button">Log In</a> '; ?>
-							<?php if($t = get_field('_login', 'options')) echo ' <a  class="button" href="https://app.moddy.io/register?plan=monthly-3D">Get Started!</a> '; ?>
-						</p>
-					</div>
-					<div class="large-6 medium-6 img cell">
-						<?php $featured_img_url = get_field('blog_image','options');?> 
-						<img src="<?php echo $featured_img_url;?>" alt="Hero Image" > 
 					</div>
 				</div>
 			  </div>
