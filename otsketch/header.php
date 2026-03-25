@@ -187,13 +187,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="grid-x grid-padding-x">
 					<div class="large-6 medium-6 cell">
 						<ul class="breadcrumbs"><li><a href="<?php echo home_url(); ?>">Home</a></li>
-						<li><a href="<?php echo get_permalink( 831 ); ?>">Learn</a></li>
 						<li>Blog</li></ul>
 						<?php
 							/*the_archive_title( '<h1 class="page-title">', '</h1>' );
 							 the_archive_description( '<div class="archive-description">', '</div>' );*/
 						?>
-						<h1 class="page-title">Learn: Blog</h1>
+						<h1 class="page-title">Blog</h1>
 					</div>
 				</div>
 			  </div>
