@@ -10,6 +10,9 @@ include('inc/core.php');
 // Site Specific
 include('inc/custom.php');
 
+// Schema Markup
+include('inc/schema.php');
+
 add_filter( 'gform_field_value_your_parameter', 'my_custom_population_function' );
 function my_custom_population_function( $value ) {
     global $post;
