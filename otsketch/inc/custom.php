@@ -148,37 +148,7 @@ function create_post_type() {
     )
   );
 
-   register_post_type( 'tutorials',
-    array(
-      'labels' => array(
-        'name' => __( 'Tutorials' ),
-        'singular_name' => __( 'Tutorials' )
-		
-      ),
-	  'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', 'comments' ),
-      'public' => true,
-      'has_archive' => true,
-	  'rewrite' => array('slug' => 'learn/tutorials')
-    )
-  );
 }
-
-
-
-
-/*register_post_type( 'calculators',
-array(
-  'labels' => array(
-    'name' => __( 'Calculators' ),
-    'singular_name' => __( 'Calculators' )
-    
-  ),
-  'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments', 'comments' ),
-  'public' => true,
-  'has_archive' => true,
-  'rewrite' => array('slug' => 'learn/calculators')
-)
-);*/
 
 
 
@@ -215,17 +185,6 @@ function popuplink( $atts, $content = null ) {
 add_shortcode( 'popuplink', 'popuplink' );
 
 
-register_taxonomy('lessons', array('tutorials'), array(
- 'hierarchical' => true,
- 'labels' => array(
-  'name' => _x('Categories', 'taxonomy general name'),
-  'add_new_item' => __('Add New Category')
- ),
- 'show_ui' => true,
- 'query_var' => true,
- 'rewrite' => array( 'slug' => 'lessons' )
-));
-register_taxonomy_for_object_type('lessons', 'tutorials');
 
 add_filter('post_link', function($permalink, $post, $leavename) {
     $home = untrailingslashit(home_url());
@@ -266,20 +225,3 @@ function my_wp_nav_menu_objects( $items, $args ) {
 
 
 
-function custom_rewrite_for_specific_post() {
-    add_rewrite_rule(
-        '^us/learn/home-modifications/occupational-therapists-guide-to-rails/?$', // New URL structure
-        'index.php?post_type=home-modifications&name=an-occupational-therapists-guide-to-rails', // Map to the correct post
-        'top'
-    );
-}
-add_action('init', 'custom_rewrite_for_specific_post');
-
-
-function custom_permalink_for_specific_post($permalink, $post, $leavename) {
-    if ($post->post_type == 'home-modifications' && $post->post_name == 'an-occupational-therapists-guide-to-rails') {
-        return home_url('/us/learn/home-modifications/occupational-therapists-guide-to-rails/');
-    }
-    return $permalink;
-}
-add_filter('post_type_link', 'custom_permalink_for_specific_post', 10, 3);
