@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:remittancego.com)"
+      "WebFetch(domain:remittancego.com)",
+      "Bash(xargs grep:*)"
     ]
   }
 }
