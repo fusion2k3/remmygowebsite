@@ -21,12 +21,6 @@ register_nav_menus( array(
 	'services' => 'Servicces',
 	'more' => 'Read more',
 	'more2' => 'Read more2',
-	'footer-menu-1' => 'Footer Menu 1',
-	'footer-menu-2' => 'Footer Menu 2',
-	'footer-menu-3' => 'Footer Menu 3',
-	'footer-menu-4' => 'Footer Menu 4',
-	'footer-menu-5' => 'Footer Menu 5',
-	'footer-menu-6' => 'Footer Menu 6',
 ) );
 
 // Widgets
