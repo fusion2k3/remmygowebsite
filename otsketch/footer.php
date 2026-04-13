@@ -49,81 +49,8 @@
 					</div>
  
 					<div class="col">
- 
+
 						<h3>Explore</h3>
-						<?php
-							wp_nav_menu(array(
-								'container' => '',
-								'menu_id' => '',
-								'menu_class' => 'menu vertical medium-vertical',
-								'theme_location' => 'primary'
-							));
-						?> 
-					</div>
- 
- 
-					<div class="col">
-						<h3>Helpful links</h3>
-						<?php
-							wp_nav_menu(array(
-								'container' => '',
-								'menu_id' => '',
-								'menu_class' => 'menu vertical medium-vertical',
-								'theme_location' => 'services'
-							));
-						?> 
-					</div>
- 
-					<div class="col">
-						<h3>Company</h3>
-						<?php
-							wp_nav_menu(array(
-								'container' => '',
-								'menu_id' => '',
-								'menu_class' => 'menu vertical medium-vertical',
-								'theme_location' => 'more'
-							));
-						?>
-					</div>
-					
-				</div>
-                	 
-		<footer id="colophon" class="site-footer">
-			<div class="grid-container">
-				
-				<div class="grid-x grid-padding-x center">
-					<div class="col">
-			
-					</div>
- 
-					<div class="col">
- 
-						<h3>Explore</h3>
-						<?php
-							wp_nav_menu(array(
-								'container' => '',
-								'menu_id' => '',
-								'menu_class' => 'menu vertical medium-vertical',
-								'theme_location' => 'footer-menu-4'
-							));
-						?> 
-					</div>
- 
- 
-					<div class="col">
-						<h3>Helpful links</h3>
-						<?php
-							wp_nav_menu(array(
-								'container' => '',
-								'menu_id' => '',
-								'menu_class' => 'menu vertical medium-vertical',
-								'theme_location' => 'footer-menu-5'
-							));
-						?> 
-					</div>
- 
-					<div class="col">
-						<h3>Company</h3>
 						<?php
 							wp_nav_menu(array(
 								'container' => '',
@@ -133,7 +60,70 @@
 							));
 						?>
 					</div>
-					
+
+
+					<div class="col">
+						<h3>Helpful links</h3>
+						<?php
+							wp_nav_menu(array(
+								'container' => '',
+								'menu_id' => '',
+								'menu_class' => 'menu vertical medium-vertical',
+								'theme_location' => 'footer-menu-2'
+							));
+						?>
+					</div>
+
+					<div class="col">
+						<h3>Company</h3>
+						<?php
+							wp_nav_menu(array(
+								'container' => '',
+								'menu_id' => '',
+								'menu_class' => 'menu vertical medium-vertical',
+								'theme_location' => 'footer-menu-3'
+							));
+						?>
+					</div>
+
+					<div style="clear:both;width:100%;"></div>
+
+					<div class="col">
+						<h3>Footer Menu 4</h3>
+						<?php
+							wp_nav_menu(array(
+								'container' => '',
+								'menu_id' => '',
+								'menu_class' => 'menu vertical medium-vertical',
+								'theme_location' => 'footer-menu-4'
+							));
+						?>
+					</div>
+
+					<div class="col">
+						<h3>Footer Menu 5</h3>
+						<?php
+							wp_nav_menu(array(
+								'container' => '',
+								'menu_id' => '',
+								'menu_class' => 'menu vertical medium-vertical',
+								'theme_location' => 'footer-menu-5'
+							));
+						?>
+					</div>
+
+					<div class="col">
+						<h3>Footer Menu 6</h3>
+						<?php
+							wp_nav_menu(array(
+								'container' => '',
+								'menu_id' => '',
+								'menu_class' => 'menu vertical medium-vertical',
+								'theme_location' => 'footer-menu-6'
+							));
+						?>
+					</div>
+
 				</div>
 			<div class="grid-container">
 				<span class="copy">Copyright &copy; Remittance Go <?php echo date('Y'); ?>, All Rights Reserved</span>
