@@ -90,6 +90,7 @@
                 	 
 			<div class="grid-container">
 				
+				<div class="grid-x grid-padding-x center">
 					<div class="col">
 			
 					</div>
@@ -130,6 +131,7 @@
 								'theme_location' => 'footer-menu-1'
 							));
 						?>
+					</div>
 					
 				</div>
 			<div class="grid-container">
