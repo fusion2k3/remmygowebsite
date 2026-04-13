@@ -86,9 +86,7 @@
 						?>
 					</div>
 
-				</div>
-
-				<div class="grid-x grid-padding-x center">
+					<div style="clear:both;width:100%;"></div>
 
 					<div class="col">
 						<h3>Footer Menu 4</h3>
