@@ -1159,7 +1159,7 @@ a, button, input[type="submit"] { -moz-transition: all .2s ease-in;  -o-transiti
 .columns + #colophon {margin-top:-125px}
 #colophon .half{width:2.16%}
 .hero-section #colophon  .grid-container{margin-bottom:0}
-#colophon{padding-bottom:24px;mix-blend-mode: multiply;  font: 17px/25px 'Work Sans',Arial, sans-serif;  color: #000;  width: 100%;  overflow: hidden;  background:url(assets/img/footer.jpg) no-repeat 50% -80px;background:#Fbfbfb;background-size: auto 120%;}
+#colophon{padding-bottom:24px;font: 17px/25px 'Work Sans',Arial, sans-serif;  color: #000;  width: 100%;  overflow: hidden;  background:url(assets/img/footer.jpg) no-repeat 50% -80px;background:#Fbfbfb;background-size: auto 120%;}
 #colophon .col{float:left;width:23.5%;padding-top:0px}
 #colophon .col:first-child{padding-top:0;float:left;width:28%;margin:0 9.5% 0 0;}
 #colophon .col:last-child{width:15.5%}
@@ -1193,7 +1193,7 @@ a, button, input[type="submit"] { -moz-transition: all .2s ease-in;  -o-transiti
 #colophon .mail + *{clear:both}
 #colophon  address{font-style:normal;float:left;margin:0 0 22px;padding:2px 0 2px 42px;background:url(assets/img/map-i.svg) no-repeat -20px -15px;}
 #colophon   address + *{clear:both}
-#colophon  .social{overflow:hidden;margin:0;padding:10px 0 0;list-style:none;overflow:hidden;mix-blend-mode:normal;}
+#colophon  .social{overflow:hidden;margin:0;padding:10px 0 0;list-style:none;overflow:hidden;}
 #colophon  .social li{float:left;margin:0 12px 0 0}
 #colophon  .social li a{text-align: center;width:26px;height:26px;border:1px solid #fff;line-height:24px;vertical-align:middle;border-radius:50%;-webkit-border-radius:50%;display: flex;align-items: center;}
 #colophon  .social li a:hover{opacity:1;background:#000}
